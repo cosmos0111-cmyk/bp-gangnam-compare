@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-noir-gold">
+    <title>강서 유흥 비교: 프리미엄 엔터테인먼트의 정석</title>
+    <meta name="description" content="강서구 유흥업소의 객관적 데이터 분석과 비교. 가격, 서비스 퀄리티, 환경까지 심층 분석하여 최고의 선택을 제안합니다. 010-6279-0862">
+    <meta name="keywords" content="강서 유흥 비교, 강서 유흥 정보, 공항동 룸싸롱, 마곡나루 유흥, 강서구 룸, VIP 유흥">
+    <link rel="canonical" href="https://gangnam-compare.pages.dev">
+    <meta property="og:title" content="강서 유흥 비교 - 데이터 기반의 엔터테인먼트 가이드">
+    <meta property="og:description" content="강서구 내 주요 유흥 시설의 상세 스펙과 가격대를 비교 분석합니다. 허위 광고 없는 사실 기반의 정보를 확인하세요.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/000000/D4AF37?text=Kangseo+Insider">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
+    <style>
+        :root {
+            --bg-color: #0a0a0a;
+            --text-primary: #f5f5f7;
+            --text-secondary: #86868b;
+            --accent-gold: #d4af37;
+            --card-bg: #1d1d1f;
+            --border-color: #333333;
+            --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Navigation */
+        nav {
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 40px;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 30px;
+        }
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav a:hover { color: var(--accent-gold); }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 80px 0 60px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #fff 0%, #d4af37 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero p {
+            font-size: 21px;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto;
+            font-weight: 400;
+        }
+
+        /* Comparison Grid */
+        .comparison-section {
+            margin-bottom: 80px;
+        }
+        .section-title {
+            font-size: 32px;
+            margin-bottom: 40px;
+            text-align: center;
+            color: var(--text-primary);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .review-card {
+            background-color: var(--card-bg);
+            border-radius: 18px;
+            padding: 30px;
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+        .review-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-gold);
+        }
+        .review-card h2 {
+            font-size: 24px;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+        .review-card .location {
+            font-size: 14px;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 16px;
+            display: block;
+        }
+        .review-card p {
+            font-size: 16px;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+        .review-card .rating {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .stars { color: var(--accent-gold); }
+        .score { font-weight: 700; color: var(--text-primary); }
+        .features-list {
+            list-style: none;
+            margin-top: 15px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 15px;
+        }
+        .features-list li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+        .features-list li::before {
+            content: "•";
+            color: var(--accent-gold);
+            margin-right: 8px;
+        }
+
+        /* Detailed Analysis Table Style */
+        .analysis-block {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 18px;
+            margin-bottom: 40px;
+        }
+        .analysis-block h3 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+        .analysis-block p {
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+        }
+
+        /* FAQ Section */
+        .faq-section { margin-bottom: 80px; }
+        .faq-item {
+            border-bottom: 1px solid var(--border-color);
+            padding: 20px 0;
+        }
+        .faq-item h4 {
+            font-size: 18px;
+            color: var(--text-primary);
+            margin-bottom: 10px;
+        }
+        .faq-item p {
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+
+        /* CTA & Footer */
+        .cta-box {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(180deg, var(--card-bg) 0%, #000 100%);
+            border-radius: 18px;
+            margin-bottom: 40px;
+        }
+        .cta-box h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .cta-btn {
+            display: inline-block;
+            background-color: var(--accent-gold);
+            color: #000;
+            padding: 16px 32px;
+            border-radius: 30px;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 18px;
+            transition: opacity 0.3s;
+        }
+        .cta-btn:hover { opacity: 0.9; }
+        
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 12px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 36px; }
+            .hero p { font-size: 18px; }
+            .grid { grid-template-columns: 1fr; }
+            .container { padding: 0 16px; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">홈</a></li>
+                <li><a href="#">강서 지역 분석</a></li>
+                <li><a href="#">가격 비교표</a></li>
+                <li><a href="#">VIP 예약</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header class="hero">
+            <h1>강서 유흥 비교: 기준을 다시 세우다</h1>
+            <p>공항동과 마곡나루를 아우르는 강서구의 유흥 생태계를 객관적 데이터로 분석합니다.<br>허위 과장 광고를 배제하고, 실제 서비스 퀄리티와 가격 경쟁력을 평가합니다.</p>
+        </header>
+
+        <section class="comparison-section">
+            <h2 class="section-title">프리미엄 업소 심층 분석</h2>
+            <div class="grid">
+                <!-- Card 1 -->
+                <article class="review-card">
+                    <span class="location">공항동 (Flight Town)</span>
+                    <h2>스카이 라운지 K</h2>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="score">4.9/5.0</span>
+                    </div>
+                    <p>공항 인근 비즈니스 접대와 VIP 라운지의 정석. 방음 시설과 인테리어가 최고 수준이며, 서비스 매니저의 전문성이 돋보이는 곳입니다.</p>
+                    <ul class="features-list">
+                        <li>평균 이용료: 30 만원대 후반</li>
+                        <li>주차 시설: 전용 발레 파킹 완비</li>
+                        <li>주력 타겟: 비즈니스 미팅, 외국 손님</li>
+                    </ul>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="review-card">
+                    <span class="location">마곡나루 (Magok R&D)</span>
+                    <h2>더 갤러리 마곡</h2>
+                    <div class="rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="score">4.7/5.0</span>
+                    </div>
+                    <p>현대적인 감성과 세련된 분위기가 공존하는 공간. 젊은 층과 전문직 종사자들이 선호하며, 가격 대비 서비스 만족도가 높습니다.</p>
+                    <ul class="features-list">
+                        <li>평균 이용료: 20 만원대 중반</li>
+                        <li>특이사항: 스마트 예약 시스템 도입</li>
+                        <li>주력 타겟: 데이트, 소모임</li>
+                    </ul>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="review-card">
+                    <span class="location">염창동 (Private Zone)</span>
+                    <h2>골드门上 (Gold Gate)</h2>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="score">4.8/5.0</span>
+                    </div>
+                    <p>철저한 보안과 프라이버시가 보장되는 프라이빗 공간. 내부 시설이 고급스러우며, 단골 손님을 위한 맞춤형 서비스가 특징입니다.</p>
+                    <ul class="features-list">
+                        <li>평균 이용료: 40 만원대 이상</li>
+                        <li>보안: 24 시간 CCTV 및 경비 상주</li>
+                        <li>주력 타겟: 고정 VIP 고객</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="analysis-block">
+            <h3>전문가 인사이트: 왜 강서구인가?</h3>
+            <p>강서구는 김포공항과 인접하다는 지리적 이점으로 인해 전통적으로 비즈니스 접대 문화가 발달해 있습니다. 최근 마곡나루 개발과 함께 고급화된 유흥 시설들이 들어서면서, 기존의 거친'image'에서 탈피하여 세련되고 안전한 엔터테인먼트 허브로 거듭나고 있습니다.</p>
+            <p>저희는 단순한 소개를 넘어, 각 업소의 위생 상태, 종사자 교육 수준, 그리고实际问题 발생 시 대응 매뉴얼까지 검증하여 신뢰할 수 있는 데이터만을 제공합니다.</p>
+        </section>
+
+        <section class="faq-section">
+            <h2 class="section-title">자주 묻는 질문 (FAQ)</h2>
+            <div class="faq-item">
+                <h4>Q. 예약 없이 방문해도 될까요?</h4>
+                <p>A. 인기 업소의 경우 주말에는 조기 마감되는 경우가 많으므로, 사전 예약을 강력히 권장합니다. 특히 VIP 실은 선착순 배정이 어렵습니다.</p>
+            </div>
+            <div class="faq-item">
+                <h4>Q. 가격 외에 추가 비용이 발생하나요?</h4>
+                <p>A. 모든 명시된 가격은 1 차 기본 이용료 기준입니다. 주류 및 안주 주문, 서비스 팁 등은 현장에서 별도로 청구될 수 있으니 미리 확인하시기 바랍니다.</p>
+            </div>
+            <div class="faq-item">
+                <h4>Q. 외국인 손님도 이용 가능한가요?</h4>
+                <p>A. 공항동 인근의 주요 업소들은 다국어 가능 직원이 상주하여 외국인 고객의 이용에 제약이 없습니다.</p>
+            </div>
+        </section>
+
+        <div class="cta-box">
+            <h2>검증된 강서 유흥 정보를 지금 확인하세요</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 30px;">신뢰할 수 있는 데이터와 전문가의 추천으로 당신의 밤을 설계합니다.</p>
+            <a href="tel:010-6279-0862" class="cta-btn">010-6279-0862 로 문의하기</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 강서 유흥 비교. All rights reserved.</p>
+            <p>본 사이트는 정보 제공을 목적으로 하며, 불법 행위를 조장하지 않습니다. 미성년자 출입은 금지됩니다.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
