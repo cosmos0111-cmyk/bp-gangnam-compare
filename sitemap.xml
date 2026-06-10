@@ -2,9 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cosmos0111-cmyk.github.io/bp-gangnam-compare/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://cosmos0111-cmyk.github.io/bp-gangnam-compare/posts/field_note-001-wuoowc.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cosmos0111-cmyk.github.io/bp-gangnam-compare/posts/guide-002-wuoowc.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://cosmos0111-cmyk.github.io/bp-gangnam-compare/posts/guide-003.html</loc>
@@ -32,7 +44,7 @@
   </url>
   <url>
     <loc>https://cosmos0111-cmyk.github.io/bp-gangnam-compare/feed.xml</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
